@@ -21,7 +21,7 @@ const Footer = () => {
                                 <div className="socials">
                                     <ul>
                                         <li>
-                                            <a href="https://t.me/zamaan3"><FontAwesomeIcon icon={faTelegramPlane} /></a>
+                                            <a href="https://t.me/ikasimovA1"><FontAwesomeIcon icon={faTelegramPlane} /></a>
                                         </li>
                                     </ul>
                                 </div>

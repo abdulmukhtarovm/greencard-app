@@ -19,7 +19,7 @@ const Navbar = () => {
             <div className={`navBar ${navbar ? 'active' : ''}`}>
                 <div className="container">
                     <div className="row align-items-center">
-                        <div className="col-1">
+                        <div className="col-lg-1 col-3">
                             <div className="logo">
                                 <a href="/"><img className='w-100' src="img/logo.png" alt="" /></a>
                             </div>
@@ -38,7 +38,7 @@ const Navbar = () => {
                         </div>
                         {/* <div className=""></div> */}
                         <div className="col-3 d-lg-block d-none offset-lg-4">
-                            <div className="tel"><a href="tel:+998908232838">+998 90 827 28 38</a></div>
+                            <div className="tel"><a href="tel:+998908232838">+998 90 823 28 38</a></div>
                         </div>
 
                         <div onClick={() => setBurger(!burger)} className={`burger pr-4 ml-auto d-flex d-lg-none ${burger ? 'burgered' : ''}`}>
